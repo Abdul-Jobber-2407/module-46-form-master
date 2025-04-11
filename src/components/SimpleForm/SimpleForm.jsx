@@ -8,10 +8,10 @@ const SimpleForm = () => {
     }
     return (
         <div>
-            <form onSubmit = {handleSubmit}>
-                <input type="text" name="name" /><br />
-                <input type="email" name="email" id="" /><br />
-                <input type="text" name="phone" id="" /><br />
+            <form onClick={handleSubmit}>
+                <input type="text" name="" id="" /><br />
+                <input type="email" name="" id="" /><br />
+                <input type="text" name="" id="" /><br />
                 <input type="submit" value="Submit" />
             </form>
         </div>
